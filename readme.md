@@ -113,6 +113,7 @@ line character '\n'. If no solution exists, print the word 'None' (without quote
 followed by the new line character '\n'.
 
 For the sample input above, the output should be:
+
     107
     75
     None
