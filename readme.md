@@ -1,3 +1,5 @@
+![HouseCanary: Powered by Python](https://i.imgsafe.org/79930d4.jpg)
+
 # HouseCanary PyCon 2016 Coding Challenge
 
 ### The Challenge
