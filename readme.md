@@ -4,13 +4,13 @@
 
 In the search for great Software Engineers, HouseCanary is hosting a coding challenge for the attendees of PyCon 2016! Any attendee who submits code that passes our public test suite gets a free HouseCanary T-shirt.
 
-This is also an opportunity for job seekers. If you’d like to be considered for a career at HouseCanary, please attach a resume along with your submission. Take a look at our job openings(link) and see if you’re a match.
+This is also an opportunity for job seekers. If you’d like to be considered for a career at HouseCanary, please attach a resume along with your submission. Take a look at our [job openings](http://housecanary.com/careers) and see if you’re a match.
 
 ### Submitting
 
-Using Python 3 and only the standard library, write a function that solves the problem below. The function should be name [something]. It takes a file object as its only argument and returns an int or None.
+Using Python 3 and only the standard library, write a function that solves the problem below. The function is named `densest_rectangle`. It takes a file object as its only argument and returns an `int` or `None`.
 
-Copy the function into a secret GitHub Gist(link) and send the link to challenge@housecanary.com. Make sure to include your resume if you’re interested in a career at HouseCanary(link).
+Copy the function into a secret [GitHub Gist](https://gist.github.com/) and send the link to challenge@housecanary.com. Include a comment in the code if it should be run in Python 2.7.11 or 3.5.1. Make sure to include your resume if you’re interested in a career at HouseCanary(link).
 
 After we run the code locally, we’ll send you an email with directions to the HouseCanary booth where you can pick up your prize.
 
@@ -119,11 +119,11 @@ For the sample input above, the output should be:
     None
 
 ## Running the Code
-Clone this repo to your machine
-Modify the function in [whatever].py to pass the challenge
-Run the tests with [unittests command] or the test runner of your choice
+ * Clone this repo to your machine
+ * Modify the function in [whatever].py to pass the challenge
+ * Run the tests with [unittests command]
 
-Your code will be tested on a [Macbook Details] with vanilla Python 3.5.1. There is a time limit to each test and your code will need to be reasonably efficient (vague?) to pass.
+Your code will be tested on a [Macbook Details] with vanilla Python 2.7.11 or 3.5.1, your choice. There is a time limit to each test and your code will need to be reasonably efficient (vague?) to pass.
 
 When you’re done, follow the submission guidelines. 
 
