@@ -4,17 +4,14 @@
 
 ### The Challenge
 
-In the search for great Software Engineers, HouseCanary is hosting a coding challenge for the attendees of PyCon 2016! Any attendee who submits code that passes our public test suite gets a free HouseCanary T-shirt.
+In the search for great Software Engineers, HouseCanary is hosting a coding challenge for the attendees of PyCon 2016!
 
 This is also an opportunity for job seekers. If you’d like to be considered for a career at HouseCanary, please attach a resume along with your submission. Take a look at our [job openings](http://housecanary.com/careers) and see if you’re a match.
 
-### Submitting
+### Prizes
 
-Using Python 3 and only the standard library, write a function that solves the problem below. The function is named `densest_rectangle`. It takes a file object as its only argument and returns an `int` or `None`.
-
-Copy the function into a secret [GitHub Gist](https://gist.github.com/) and send the link to challenge@housecanary.com. Include a comment in the code if it should be run in Python 2.7.11 or 3.5.1. Make sure to include your resume if you’re interested in a career at HouseCanary(link).
-
-After we run the code locally, we’ll send you an email with directions to the HouseCanary booth where you can pick up your prize.
+Fastest Solution: $500 Amazon Gift Card
+Pass The First Test Suite: HouseCanary T-shirt
 
 ### The Problem
 
@@ -120,16 +117,29 @@ For the sample input above, the output should be:
     75
     None
 
-## Running the Code
- * Clone this repo to your machine
- * Modify the function in [whatever].py to pass the challenge
- * Run the tests with [unittests command]
+### Running the Code
+Modify the function in [filename.py]. Leave the function name and parameters the same, but feel free to otherwise modify the provided boilerplate code.
 
-Your code will be tested on a [Macbook Details] with vanilla Python 2.7.11 or 3.5.1, your choice. There is a time limit to each test and your code will need to be reasonably efficient (vague?) to pass.
+[Code test instructions]
 
-When you’re done, follow the submission guidelines. 
+
+### Testing Environment
+The test machine is a Macbook with a 2.2 GHz i7 processor and 16GB of RAM. Your code will be run in a VM with:
+
+* Your choice of Python 2.7.11 or 3.5.1
+* Numpy installed
+* Any packages you need that can be pip installed
+
+
+### Submitting
+
+Copy [filename.py] into a secret [GitHub Gist](https://gist.github.com/) and send the link to challenge@housecanary.com. Include a comment in the code describing which version of Python (2.7.11 or 3.5.1) and which additional packages should be pip installed, if any.
+
+Make sure to attach your resume if you’re interested in a career at [HouseCanary](http://housecanary.com/careers).
+
+After we run the code locally, we’ll send you an email with directions to the HouseCanary booth where you can pick up your prize.
 
 ## The Fine Print
 
-Prizes are while supplies last. Contest ends at 5PM on Wednesday June 1st and prizes must be picked up before then. Entrants must be attendees of PyCon 2106.
+Prizes are while supplies last. Contest ends at 1PM on Wednesdsay June 1st and T-shirt prizes must be picked up at the HouseCanary booth before then. Code must be the entrant's original work, and HouseCanary may refuse prizes for detected plagiarism. 1st place winner will be announced in this repo on Friday, June 3rd. Entrants must be attendees of PyCon 2016.
 
