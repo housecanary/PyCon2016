@@ -10,8 +10,8 @@ This is also an opportunity for job seekers. If you’d like to be considered fo
 
 ### Prizes
 
-Fastest Solution: $500 Amazon Gift Card
-Pass The First Test Suite: HouseCanary T-shirt
+ * Fastest Solution: $500 Amazon Gift Card
+ * Pass The First Test Suite: HouseCanary T-shirt
 
 ### The Problem
 
@@ -37,11 +37,13 @@ Location Array 'M':
 Each cell value indicates number of homes located in that cell location.
 
 Search rectangle a x b:
+
     1. a=3, b = 3
     2. a=2, b=2
     3. a=1, b=2
 
 Solution:
+
     1. Search rectangle of size 3 by 3 with largest number of homes:
 
     [[6, 9, 9],
