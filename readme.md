@@ -82,7 +82,7 @@ and columns in the search rectangle.
 Third line contains two space separated integers corresponding to number of rows
 and columns in location array 'M'.
 
-The next NUM_ROWS lines contain NUM_COLUMNS space separated integers each. These
+The next NUM_ROWS lines contain NUM_COLUMNS space-separated integers each. These
 lines correspond to rows and columns in location array 'M'.
 
 For example, the following contains two problem instances (file inputs/input0.txt):
@@ -105,7 +105,7 @@ For example, the following contains two problem instances (file inputs/input0.tx
     1 8 20 0 0 0 0 1
     2 1 1 2 3 5 5 9
 
-The file [solution.py] already has a method to read input file for you, but feel free to
+The file [solution.py](./solution.py) already has a method to read input file for you, but feel free to
 use your own if you want.
 
 ### Output format
@@ -122,7 +122,7 @@ For the sample input above, the output should be:
     None
 
 ### How to implement your solution
-Modify the *find_densest* function in [solution.py]. Feel free to modify the provided boilerplate code.
+Modify the *find_densest* function in [solution.py](./solution.py). Feel free to modify the provided boilerplate code.
 
 The exepcted output for the input data in *inputs* folder has been provided for you in *outputs* folder.
 
@@ -148,7 +148,7 @@ Your solution will be tested against similar input data as provided in *inputs* 
 
 ### Submitting
 
-Copy your [solution.py] into a secret [GitHub Gist](https://gist.github.com/) and send the link to challenge@housecanary.com. Include a comment in the code describing which version of Python (2.7.11 or 3.5.1) and which additional packages should be pip installed, if any.
+Copy your `solution.py` into a secret [GitHub Gist](https://gist.github.com/) and send the link to challenge@housecanary.com. Include a comment in the code describing which version of Python (2.7.11 or 3.5.1) and which additional packages should be pip installed, if any.
 
 Make sure to attach your resume if you’re interested in a career at [HouseCanary](http://housecanary.com/careers).
 
