@@ -122,7 +122,7 @@ For the sample input above, the output should be:
     None
 
 ### How to implement your solution
-Modify the *find_densest* function in [solution.py](./solution.py). Feel free to modify the provided boilerplate code.
+Modify the `find_densest` function in [solution.py](./solution.py). Feel free to modify the provided boilerplate code.
 
 The exepcted output for the input data in *inputs* folder has been provided for you in *outputs* folder.
 
