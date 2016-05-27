@@ -11,7 +11,7 @@ This is also an opportunity for job seekers. If you’d like to be considered fo
 ### Prizes
 
  * Fastest Solution: $500 Amazon Gift Card
- * Pass The First Test Suite: HouseCanary T-shirt
+ * Pass The First Two Test Cases: HouseCanary T-shirt
 
 ### The Problem
 
@@ -26,6 +26,7 @@ provided per problem instance you are asked to solve.
 
 You can assume that the sum of values in the 2D array 'M' will never be
 be bigger than maximum value of an integer in your computer.
+
 Example Problem Instance
 
 Location Array 'M':
@@ -33,7 +34,7 @@ Location Array 'M':
     [[0, 3, 1, 6],
     [6, 9, 9, 0],
     [2, 8, 9, 2],
-    [8, 8, 8, 5]]    
+    [8, 8, 8, 5]]
 Each cell value indicates number of homes located in that cell location.
 
 Search rectangle a x b:
@@ -84,9 +85,7 @@ and columns in location array 'M'.
 The next NUM_ROWS lines contain NUM_COLUMNS space separated integers each. These
 lines correspond to rows and columns in location array 'M'.
 
-
-
-For example, the following contains two problem instances (file inputs/sample.txt):
+For example, the following contains two problem instances (file inputs/input0.txt):
 
     3
     2 3
@@ -106,6 +105,9 @@ For example, the following contains two problem instances (file inputs/sample.tx
     1 8 20 0 0 0 0 1
     2 1 1 2 3 5 5 9
 
+The file [solution.py] already has a method to read input file for you, but feel free to
+use your own if you want.
+
 ### Output format
 
 For each problem instance print an integer equivalent to the
@@ -119,11 +121,21 @@ For the sample input above, the output should be:
     75
     None
 
-### Running the Code
-Modify the function in [filename.py]. Leave the function name and parameters the same, but feel free to otherwise modify the provided boilerplate code.
+### How to implement your solution
+Modify the *find_densest* function in [solution.py]. Feel free to modify the provided boilerplate code.
 
-[Code test instructions]
+The exepcted output for the input data in *inputs* folder has been provided for you in *outputs* folder.
 
+Test your code as follows (assuming you used the provided boilerplate code):
+
+```
+cat inputs/input0.txt | python solution.py
+cat inputs/input1.txt | python solution.py
+cat inputs/input2.txt | python solution.py
+cat inputs/input3.txt | python solution.py
+```
+
+Check that your solution matches the contents of corresponding file in *outputs* folder.
 
 ### Testing Environment
 The test machine is a Macbook with a 2.2 GHz i7 processor and 16GB of RAM. Your code will be run in a VM with:
@@ -132,10 +144,11 @@ The test machine is a Macbook with a 2.2 GHz i7 processor and 16GB of RAM. Your 
 * Numpy installed
 * Any packages you need that can be pip installed
 
+Your solution will be tested against similar input data as provided in *inputs* folder.
 
 ### Submitting
 
-Copy [filename.py] into a secret [GitHub Gist](https://gist.github.com/) and send the link to challenge@housecanary.com. Include a comment in the code describing which version of Python (2.7.11 or 3.5.1) and which additional packages should be pip installed, if any.
+Copy your [solution.py] into a secret [GitHub Gist](https://gist.github.com/) and send the link to challenge@housecanary.com. Include a comment in the code describing which version of Python (2.7.11 or 3.5.1) and which additional packages should be pip installed, if any.
 
 Make sure to attach your resume if you’re interested in a career at [HouseCanary](http://housecanary.com/careers).
 
