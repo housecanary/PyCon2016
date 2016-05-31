@@ -10,8 +10,7 @@ This is also an opportunity for job seekers. If you’d like to be considered fo
 
 ### Prizes
 
- * Fastest Solution: $500 Amazon Gift Card
-   (Should pass all provided test cases within 1 minute)
+ * Fastest Running Solution: $500 Amazon Gift Card
 
  * Pass The First Two Test Cases: HouseCanary T-shirt
 
