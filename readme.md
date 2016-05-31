@@ -2,6 +2,8 @@
 
 # HouseCanary PyCon 2016 Coding Challenge
 
+    We are out of medium shirts :(
+
 ### The Challenge
 
 In the search for great Software Engineers, HouseCanary is hosting a coding challenge for the attendees of PyCon 2016!
