@@ -4,6 +4,8 @@
 
 Thank you to everyone that entered! We are excited to announce [Bruce Pucci](https://github.com/brucepucci) as the winner of the contest. He came in with the most performant solution and will be receiving a $500 Amazon gift card.
 
+[The Winning Submission](https://gist.github.com/brucepucci/fcd7c5144f38a82375489ab4f2fdbd2f)
+
 We were all impressed with the quality and performance of the submissions we received. For our first public coding challenge, this was such a success that you can expect to see more in the future. If you'd like to work on problems like these at HouseCanary, visit our [careers page](http://housecanary.com/careers).
 
 # HouseCanary PyCon 2016 Coding Challenge
